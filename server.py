@@ -14,7 +14,7 @@ def index_route () :
 		'author_url' : 'http://tapasweni-pathak.github.io/',
 		'base_url' : 'horoscope-api.herokuapp.com',
 	    	'project_name' : 'Horoscope API',
-		'project_url' : 'http://tapasweni-pathak.github.io/pyhoroscope/'
+		'project_url' : 'http://tapasweni-pathak.github.io/Horoscope-API'
 	})
 
 
