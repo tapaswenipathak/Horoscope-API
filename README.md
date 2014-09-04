@@ -7,7 +7,7 @@ An API to extract horoscope.
 ## Table of Contents
 
 * [Features](#features)
-*  [Usage](#usage)
+* [Usage](#usage)
 * [Todo](#todo)
 * [Contributing](#contributing)
 
@@ -26,6 +26,17 @@ An API to extract horoscope.
 
 # API Usage
 ### API Base URL: `http://horoscope-api.herokuapp.com/`
+
+Result :
+```json
+{
+  "author": "Tapasweni Pathak", 
+  "author_url": "http://tapasweni-pathak.github.io/", 
+  "base_url": "horoscope-api.herokuapp.com", 
+  "project_name": "Horoscope API", 
+  "project_url": "http://tapasweni-pathak.github.io/pyhoroscope/"
+}
+```
 
 ### GET: `/horoscope/today/<sunsign>`
 #### Example
