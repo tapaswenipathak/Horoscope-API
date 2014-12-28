@@ -118,3 +118,7 @@ Feel free to submit a pull request or an issue!
 
 
 ####Note : This parses [GaneshaSpeaks](http://www.ganeshaspeaks.com/) unofficialy.
+
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tapasweni-pathak/horoscope-api/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
