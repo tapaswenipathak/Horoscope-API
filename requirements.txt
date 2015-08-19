@@ -3,8 +3,9 @@ Jinja2==2.7.3
 MarkupSafe==0.23
 Werkzeug==0.9.6
 beautifulsoup4==4.3.2
-gunicorn==19.0.0
+gunicorn==19.3.0
 itsdangerous==0.24
-newrelic==2.22.1.20
-horoscope==0.1.1
+newrelic==2.54.0.41
+horoscope==0.1.2
 wsgiref==0.1.2
+lxml
