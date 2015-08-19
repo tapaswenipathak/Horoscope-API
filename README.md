@@ -22,7 +22,7 @@ An API to extract horoscope.
 * Yearly horoscope
   * broken down into year, sunsign and horoscope.
 * Know more about a sunsign
-  * broken down into lord, lucky color, lucky day, lucky number, meaning of name, and sanskrit name.
+  * broken down into lord, lucky color, lucky day, type, meaning of name, and sanskrit name.
 
 # API Usage
 ### API Base URL: `http://horoscope-api.herokuapp.com/`
@@ -99,7 +99,7 @@ Output (excerpt):
 {
   "lord": "Venus", 
   "lucky_color": "Blue, Green", 
-  "lucky_day": "Friday", 
+  "Type": "Air-Cardinal-Positive",
   "lucky_number": "6, 15, 24, 33, 42, 51, 60", 
   "meaning_of_name": "The Scales", 
   "sanskrit_name": "Tula"
