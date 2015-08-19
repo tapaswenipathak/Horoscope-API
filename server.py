@@ -66,7 +66,7 @@ def know_more_route (sunsign) :
 	return jsonify (sanskrit_name=result['sanskrit_name'],
 			meaning_of_name=result['meaning_of_name'],
 			lord=result['lord'],
-			lucky_color=result['lucky_color'],
+			Type=result['type'],
 			lucky_day=result['lucky_day'],
 			lucky_number=result['lucky_number'])
 					
