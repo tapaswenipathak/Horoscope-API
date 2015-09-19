@@ -13,8 +13,16 @@ def index_route () :
 		'author' : 'Tapasweni Pathak',
 		'author_url' : 'http://tapasweni-pathak.github.io/',
 		'base_url' : 'horoscope-api.herokuapp.com',
-	    	'project_name' : 'Horoscope API',
-		'project_url' : 'http://tapasweni-pathak.github.io/Horoscope-API'
+	    'project_name' : 'Horoscope API',
+		'project_url' : 'http://tapasweni-pathak.github.io/Horoscope-API',
+        'project_issues': 'https://github.com/tapasweni-pathak/Horoscope-API/issues',
+        'endpoints': {
+            'Today\'s Horosocope': '/horoscope/today/{sunsign}',
+            'Weekly Horoscope': 'horoscope/week/{sunsign}',
+            'Monthly Horoscope': 'horoscope/month/{sunsign}',
+            'Yearly Horosope': 'horoscope/year/{sunsign}',
+            'Know More About a Sunsign': 'knowmore/{sunsign}',
+        }
 	})
 
 
