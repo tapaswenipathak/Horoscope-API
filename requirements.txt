@@ -2,10 +2,9 @@ Flask==0.10.1
 Jinja2==2.7.3
 MarkupSafe==0.23
 Werkzeug==0.9.6
-beautifulsoup4==4.3.2
 gunicorn==19.3.0
 itsdangerous==0.24
 newrelic==2.54.0.41
-horoscope==0.1.2
+horoscope==1.0.0
 wsgiref==0.1.2
 lxml
