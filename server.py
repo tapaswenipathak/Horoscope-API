@@ -22,7 +22,6 @@ def index_route():
             'Weekly Horoscope': 'horoscope/week/{sunsign}',
             'Monthly Horoscope': 'horoscope/month/{sunsign}',
             'Yearly Horosope': 'horoscope/year/{sunsign}',
-            'Know More About a Sunsign': 'knowmore/{sunsign}',
         }
     })
 
@@ -67,21 +66,6 @@ def yearly_horoscope_route(sunsign):
     return jsonify(year=result['year'],
                    sunsign=result['sunsign'],
                    horoscope=result['horoscope'])
-
-
-###########################################
-# More Information About A Sunsign
-###########################################
-
-@app.route('/knowmore/<sunsign>', methods=['GET'])
-def know_more_route(sunsign):
-    result = dict(Horoscope.know_all_about(sunsign))
-    return jsonify(sanskrit_name=result['sanskrit_name'],
-                   meaning_of_name=result['meaning_of_name'],
-                   lord=result['lord'],
-                   Type=result['type'],
-                   lucky_day=result['lucky_day'],
-                   lucky_number=result['lucky_number'])
 
 
 ###########################################

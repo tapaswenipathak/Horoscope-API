@@ -21,8 +21,6 @@ An API to extract horoscope.
   * broken down into month, sunsign and horoscope.
 * Yearly horoscope
   * broken down into year, sunsign and horoscope.
-* Know more about a sunsign
-  * broken down into lord, lucky color, lucky day, type, meaning of name, and sanskrit name.
 
 # API Usage
 ### API Base URL: `http://horoscope-api.herokuapp.com/`
@@ -90,8 +88,6 @@ Output (excerpt):
 }
 ```
 
-### GET: `/horoscope/knowmore/<sunsign>`
-#### Example
 Example usage: `GET http://horoscope-api.herokuapp.com/knowmore/libra`
 
 Output (excerpt):
