@@ -7,7 +7,7 @@ An API to extract horoscope.
 ## Table of Contents
 
 * [Features](#features)
-* [Usage](#usage)
+* [Usage](#api-usage)
 * [Todo](#todo)
 * [Contributing](#contributing)
 
