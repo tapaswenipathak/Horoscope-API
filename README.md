@@ -7,7 +7,7 @@ An API to extract horoscope.
 ## Table of Contents
 
 * [Features](#features)
-* [Usage](#usage)
+* [Usage](#api-usage)
 * [Todo](#todo)
 * [Contributing](#contributing)
 
@@ -113,8 +113,8 @@ Feel free to submit a pull request or an issue!
 
 
 
-####Note : This parses [GaneshaSpeaks](http://www.ganeshaspeaks.com/) unofficialy.
+####Note 1 : This parses [GaneshaSpeaks](http://www.ganeshaspeaks.com/) unofficialy.
 
-
+####Note 2 : If the API goes down, please open a issue or comment on already existing one with the problem(s) that you are facing. This is the best way to let me know that the API is not working, avoid sending email. 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tapasweni-pathak/horoscope-api/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
