@@ -84,7 +84,7 @@ Example usage: `GET http://horoscope-api.herokuapp.com/horoscope/year/libra`
    "sunsign": "libra",
    "year": "2014 "
 }
-
+```
 # Todo
 * Personality Profile
 * Facts About a Sunsign
