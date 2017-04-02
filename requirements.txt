@@ -5,6 +5,6 @@ Werkzeug==0.9.6
 gunicorn==19.3.0
 itsdangerous==0.24
 newrelic==2.54.0.41
-horoscope==1.0.3
+horoscope==1.0.4
 wsgiref==0.1.2
 lxml
