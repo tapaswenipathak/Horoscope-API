@@ -76,7 +76,15 @@ Output (excerpt):
 ```
 
 ### GET: `/horoscope/year/<sunsign>`
-#### Example
+Example usage: `GET http://horoscope-api.herokuapp.com/horoscope/year/libra`
+ Output (excerpt):
+ ```json
+ {
+   "horoscope": "The planetary alignment indicate that you will have trouble controlling your temper during the year ahead. Be very careful of your words and actions as even petty issues may go out of hand in no time. As far as your love life is concerned, there will some ups and downs during year . Be unbiased and practical while sorting out issues with your beloved, else you will not be able to stop things from going bad to worse. This year, you need to be very clear about how you are going to handle your finances. According to Ganesha, you should pay special attention to your spendings and cash outflow. Whereas for your business, it may prove to be an excellent year. In all likelihood, you will come across lucrative business opportunities. The transiting Jupiter may bring you a favourable period on the career front in the form of a promotion or an increment. Well, be prepared to accept more responsibilities.",
+   "sunsign": "libra",
+   "year": "2014 "
+}
+
 # Todo
 * Personality Profile
 * Facts About a Sunsign
