@@ -10,7 +10,7 @@ class Horoscope:
 
     @staticmethod
     def get_todays_horoscope(sunsign):
-        url = "http://www.ganeshaspeaks.com/horoscopes/daily-horoscope/" + sunsign
+        url = "https://www.ganeshaspeaks.com/horoscopes/daily-horoscope/" + sunsign
         response = urllib.request.urlopen(url)
         htmlparser = etree.HTMLParser()
         tree = etree.parse(response, htmlparser)
@@ -30,7 +30,7 @@ class Horoscope:
 
     @staticmethod
     def get_weekly_horoscope(sunsign):
-        url = "http://www.ganeshaspeaks.com/horoscopes/weekly-horoscope/" + sunsign
+        url = "https://www.ganeshaspeaks.com/horoscopes/weekly-horoscope/" + sunsign
         response = urllib.request.urlopen(url)
         htmlparser = etree.HTMLParser()
         tree = etree.parse(response, htmlparser)
@@ -50,7 +50,7 @@ class Horoscope:
 
     @staticmethod
     def get_monthly_horoscope(sunsign):
-        url = "http://www.ganeshaspeaks.com/horoscopes/monthly-horoscope/" + sunsign
+        url = "https://www.ganeshaspeaks.com/horoscopes/monthly-horoscope/" + sunsign
         response = urllib.request.urlopen(url)
         htmlparser = etree.HTMLParser()
         tree = etree.parse(response, htmlparser)
@@ -70,7 +70,7 @@ class Horoscope:
 
     @staticmethod
     def get_yearly_horoscope(sunsign):
-        url = "http://www.ganeshaspeaks.com/horoscopes/yearly-horoscope/" + sunsign
+        url = "https://www.ganeshaspeaks.com/horoscopes/yearly-horoscope/" + sunsign
         response = urllib.request.urlopen(url)
         htmlparser = etree.HTMLParser()
         tree = etree.parse(response, htmlparser)
