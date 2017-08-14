@@ -19,6 +19,7 @@ class Horoscope:
         horoscope = str(tree.xpath(
 			"//*[@id=\"daily\"]/div/div[1]/div[2]/p[1]/text()"))
         horoscope = horoscope.replace("[\"\\r\\n   ", "").replace("    \\r\\n    \\r\\n  \"]", "")
+        horoscope = horoscope.strip()
         dict = {
             'date': date,
             'horoscope': horoscope,
@@ -39,6 +40,7 @@ class Horoscope:
         horoscope = str(tree.xpath(
 			"//*[@id=\"daily\"]/div/div[1]/div[2]/p[1]/text()"))
         horoscope = horoscope.replace("\\r\\n   ", "").replace("     \\r\\n  ", "").replace("    \\r\\n    \\r\\n  ", "").replace("['", "").replace("']", "")
+        horoscope = horoscope.strip()
         dict = {
             'week': week,
             'horoscope': horoscope,
@@ -59,6 +61,7 @@ class Horoscope:
         horoscope = str(tree.xpath(
 			"//*[@id=\"daily\"]/div/div[1]/div[2]/p[1]/text()[1]"))
         horoscope = horoscope.replace("\\r\\n   ", "").replace("['", "").replace("']", "")
+        horoscope = horoscope.strip()
         dict = {
             'month': month,
             'horoscope': horoscope,
@@ -79,6 +82,7 @@ class Horoscope:
         horoscope = str(tree.xpath(
 			"//*[@id=\"daily\"]/div/div[1]/div[2]/p[1]/text()"))
         horoscope = horoscope.replace("['\\r\\n   ", "").replace("    \\r\\n    \\r\\n  ", "").replace("[u'", "").replace("']", "").replace("\\xe2\\x80\\x99s", "")
+        horoscope = horoscope.strip()
         dict = {
             'year': year,
             'horoscope': horoscope,
