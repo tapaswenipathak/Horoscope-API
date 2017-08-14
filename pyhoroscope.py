@@ -1,6 +1,5 @@
 import urllib.request
 from lxml import etree
-import re
 
 ####################################################################
 # API
