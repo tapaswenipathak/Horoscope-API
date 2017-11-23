@@ -6,3 +6,4 @@ gunicorn
 itsdangerous
 newrelic
 lxml
+requests
