@@ -6,9 +6,6 @@ An API to extract horoscope.
 
 Please try - https://horoscopesapi.com which has a commercial license and more features.
 
-## Licensing Notification 
-This API parses GaneshaSpeaks unofficialy and does not come with a commercial license. If you're looking for an officially licensed API please try - https://horoscopesapi.com  
-
 ## Table of Contents
 
 * [Features](#features)
