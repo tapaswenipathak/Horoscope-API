@@ -101,7 +101,7 @@ Feel free to submit a pull request or an issue!
 
 
 
-#### Note 1 : This parses [GaneshaSpeaks](http://www.ganeshaspeaks.com/) unofficialy. It does not come with a commercial license. If you're looking for an officially licensed API please try - https://horoscopesapi.com  
+#### Note 1 : This parses [GaneshaSpeaks](http://www.ganeshaspeaks.com/) unofficialy.  
 
 #### Note 2 : If the API goes down, please open a issue or comment on already existing one with the problem(s) that you are facing. This is the best way to let me know that the API is not working, avoid sending email. 
 
