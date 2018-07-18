@@ -4,6 +4,8 @@ Horoscope API
 
 An API to extract horoscope.
 
+Please try - https://horoscopesapi.com which has a commercial license and more features.
+
 ## Table of Contents
 
 * [Features](#features)
@@ -96,8 +98,10 @@ Feel free to submit a pull request or an issue!
 
 
 
-#### Note 1 : This parses [GaneshaSpeaks](http://www.ganeshaspeaks.com/) unofficialy.
+#### Note 1 : This parses [GaneshaSpeaks](http://www.ganeshaspeaks.com/) unofficialy.  
 
 #### Note 2 : If the API goes down, please open a issue or comment on already existing one with the problem(s) that you are facing. This is the best way to let me know that the API is not working, avoid sending email. 
+
+#### Note 3 : You can also try - https://horoscopesapi.com which has a commercial license and more features.
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tapasweni-pathak/horoscope-api/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
