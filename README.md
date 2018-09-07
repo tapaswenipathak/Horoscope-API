@@ -93,6 +93,9 @@ Example usage: `GET http://horoscope-api.herokuapp.com/horoscope/year/libra`
 * Practical Side of a Sunsign
 * Astrological Perspective of a Sunsign
 
+# Java Alternate 
+* Find the Java wrapper library of this API at [here](https://github.com/TheBotBox/Horoscope-API) created by [TheBotBox](https://github.com/TheBotBox/) 
+
 # Contributing
 Feel free to submit a pull request or an issue!
 
