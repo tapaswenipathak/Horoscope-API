@@ -7,3 +7,4 @@ itsdangerous
 newrelic
 lxml
 requests
+flask-cors
