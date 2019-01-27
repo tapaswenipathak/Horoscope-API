@@ -1,5 +1,5 @@
 sunsigns = ["aries", "taurus", "gemini", "cancer", "leo", "virgo",
-           "libra", "scorpio", "stagittarius", "capricorn", "aquarius", "pisces"]
+           "libra", "scorpio", "sagittarius", "capricorn", "aquarius", "pisces"]
 timeframe = ["todays", "weekly", "yearly", "monthly"]
 from pyhoroscope import Horoscope as horo
 
