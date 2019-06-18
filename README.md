@@ -1,6 +1,12 @@
+![](https://img.shields.io/badge/-Horoscope%20API-blueviolet.svg)
+
 Horoscope API
 ======
-
+[![GitHub issues](https://img.shields.io/github/issues/tapaswenipathak/Horoscope-API.svg)](https://github.com/tapaswenipathak/Horoscope-API/issues)
+[![GitHub forks](https://img.shields.io/github/forks/tapaswenipathak/Horoscope-API.svg)](https://github.com/tapaswenipathak/Horoscope-API/network)
+[![GitHub stars](https://img.shields.io/github/stars/tapaswenipathak/Horoscope-API.svg)](https://github.com/tapaswenipathak/Horoscope-API/stargazers)
+[![GitHub license](https://img.shields.io/github/license/tapaswenipathak/Horoscope-API.svg)](https://github.com/tapaswenipathak/Horoscope-API/blob/master/License.md)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/tapaswenipathak/Horoscope-API.svg?label=Horoscope-API&style=social)](https://twitter.com/intent/tweet?text=Horoscope%20API:&url=https%3A%2F%2Fgithub.com%2Ftapaswenipathak%2FHoroscope-API)
 
 An API to extract horoscope.
 
