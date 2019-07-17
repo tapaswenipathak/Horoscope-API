@@ -101,6 +101,7 @@ Example usage: `GET http://horoscope-api.herokuapp.com/horoscope/year/libra`
 
 # API Wrappers 
 * [Java Wrapper](https://github.com/TheBotBox/Horoscope-API) by [TheBotBox](https://github.com/TheBotBox/) 
+* [Flutter Wrapper](https://github.com/sumitgohil/flutter_horoscope) by [SumitGohil](https://github.com/sumitgohil/) 
 
 # Contributing
 Feel free to submit a pull request or an issue!
