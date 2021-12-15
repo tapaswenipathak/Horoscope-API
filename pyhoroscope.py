@@ -92,14 +92,3 @@ class Horoscope:
 
         return dict
 
-
-sunsigns = ["aries", "taurus", "gemini", "cancer", "leo", "virgo",
-           "libra", "scorpio", "sagittarius", "capricorn", "aquarius", "pisces"]
-timeframe = ["todays", "weekly", "yearly", "monthly"]
-
-
-print(sunsigns[0])
-print(Horoscope.get_todays_horoscope(sunsigns[0]))
-print(Horoscope.get_weekly_horoscope(sunsigns[0]))
-print(Horoscope.get_monthly_horoscope(sunsigns[0]))
-print(Horoscope.get_yearly_horoscope(sunsigns[0]))
