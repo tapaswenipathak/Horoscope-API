@@ -8,3 +8,4 @@ newrelic
 lxml
 requests
 flask-cors
+bs4
