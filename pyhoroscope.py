@@ -63,16 +63,23 @@ class Horoscope:
     @staticmethod
     def get_monthly_horoscope(sunsign):
         url = "http://www.ganeshaspeaks.com/horoscopes/monthly-horoscope/" + sunsign
-        response = requests.get(url)
-        soup = BeautifulSoup(response.text, 'lxml')
-        month = soup.find('p', class_='mb-0').text
-        horoscope = soup.find('p', id='horo_content').text
-        horoscope = horoscope.replace("\\n", "").replace("  ", "").replace("']", "").replace("['", "")
-        dict = {
-            'month': month,
-            'horoscope': horoscope,
-            'sunsign': sunsign
-        }
+        try:
+            response = requests.get(url)
+            soup = BeautifulSoup(response.text, 'lxml')
+            month = soup.find('p', class_='mb-0').text
+            horoscope = soup.find('p', id='horo_content').text
+            horoscope = horoscope.replace("\\n", "").replace("  ", "").replace("']", "").replace("['", "")
+            dict = {
+                'month': month,
+                'horoscope': horoscope,
+                'sunsign': sunsign
+            }
+        except Exception as ex:
+            dict = {
+                'year': month,
+                'horoscope': 'Error: the source is broken!',
+                'sunsign': sunsign
+            }
 
         return dict
 

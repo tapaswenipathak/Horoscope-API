@@ -17,3 +17,4 @@ COPY . .
 
 CMD [ "python", "test.py" ]
 
+EXPOSE 80
