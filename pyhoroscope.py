@@ -78,7 +78,7 @@ class Horoscope:
             if not month:
                 month = 'Error: None'
             dict = {
-                'year': month,
+                'month': month,
                 'horoscope': 'Error: the source is broken!',
                 'sunsign': sunsign
             }
