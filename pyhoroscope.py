@@ -75,6 +75,8 @@ class Horoscope:
                 'sunsign': sunsign
             }
         except Exception as ex:
+            if not month:
+                month = 'Error: None'
             dict = {
                 'year': month,
                 'horoscope': 'Error: the source is broken!',
@@ -98,6 +100,8 @@ class Horoscope:
                 'sunsign': sunsign
             }
         except Exception as ex:
+            if not year:
+                year = 'Error: None'
             dict = {
                 'year': year,
                 'horoscope': 'Error: the source is broken!',
