@@ -10,8 +10,6 @@ Horoscope API
 
 An API to extract horoscope.
 
-Please try - https://horoscopesapi.com which has a commercial license and more features.
-
 ## Table of Contents
 
 * [Features](#features)
